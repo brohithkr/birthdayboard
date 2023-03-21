@@ -1,0 +1,73 @@
+/* apply multicolor background */
+body {
+  background-color: #feffef;
+
+  /* width: 240px;
+  height: 240px; */
+  /* background-color: #ccc; */
+  background-image: radial-gradient(#f1efd4 10%, transparent 11%),
+    radial-gradient(#f1efd4 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+
+}
+
+/* style for the h1 heading */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px #000;
+}
+
+/* style for the h2 heading */
+h2 {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+/* style for the unordered list */
+.bdlist {
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px #000;
+}
+
+/* style for the list items */
+.bdlist li {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  list-style: none;
+}
+
+/* style for the wish paragraphs */
+.wish-para {
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px #000;
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+/* .combine-para {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px #000;
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.5em;
+} */

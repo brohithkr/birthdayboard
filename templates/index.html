@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday board</title>
+	<link rel="stylesheet" href="static/index2.css"/>
+	<link rel="stylesheet" href="index2.css" />
+</head>
+<body>
+	<!-- <h1>Birthday board CSE-A</h1> -->
+	<h2><img  src="static/birthdaywish1.webp" height="300" width="500"></h2>
+	<div class="combine-para">
+	<div class="bdlist">
+	<ul>
+	{% if is_bd == True %}
+		{% for name in bdlist %}
+		<li>{{name}}</li>
+		{% endfor %}
+	{% endif %}
+	{% if is_bd == False %}
+	<li>There is no birthday today.</li>
+	<li>{{datetoday}}</li>
+	{% endif %}
+
+	</ul>
+
+	</div>
+	{% if is_bd == True %}
+	<div class="wish-para">
+	<p>Wishing you all the happiness and joy on your special day. May all your dreams come true and may this birthday be just the beginning of a happy journey that will lead you to an even more amazing future.</p>
+
+	<p>Enjoy your day and have a wonderful year ahead!</p>
+	<p> {{datetoday}} </p>
+	</div>
+	{% endif %}
+	</div>
+
+</body>
+</html>
