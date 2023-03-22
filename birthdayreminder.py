@@ -28,5 +28,5 @@ if __name__=="__main__":
         for i in bdlist:
             print(i)
     else:
-        print("Today is no one's birthday.")
+        print("There is no one's birthday today.")
 
