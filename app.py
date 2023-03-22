@@ -3,7 +3,6 @@ from birthdayreminder import *
 from datetime import datetime
 from pytz import timezone
 
-
 app = Flask(__name__)
 
 @app.route("/")
